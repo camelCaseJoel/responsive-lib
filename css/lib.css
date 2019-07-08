@@ -3,6 +3,14 @@
 /* ---------------------- */
 
 * { box-sizing: border-box; }
+.responsive-container {
+    
+    overflow: auto;
+}
+.responsive-container > * {
+    float: left; 
+}
+
 
 /* Based in a 12 columns grid */
 
